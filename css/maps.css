@@ -1,0 +1,27 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+#map {  
+  height: 500px;
+  margin-bottom: 60px;
+  
+  }
+#chart {
+	height:100%;
+	text-align: center;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar {
+  fill: steelblue;
+}
+.x.axis path {
+  display: none;
+}
